@@ -1,0 +1,23 @@
+<resources>
+    <properties>    	
+    	<property id="bluconEmail" type="string"></property>
+    	<property id="bluconPwd" type="string"></property>
+    	<property id="bluconName" type="string"></property>
+    	<property id="hourToDisplay" type="number">1</property>
+    </properties>
+ 
+    <settings>
+		<setting propertyKey="@Properties.bluconEmail" title="@Strings.bluconEmailTitle">
+            <settingConfig type="email" required="true"/>
+		</setting>
+		<setting propertyKey="@Properties.bluconPwd" title="@Strings.bluconPwdTitle">
+            <settingConfig type="password" required="true"/>
+		</setting>
+		<setting propertyKey="@Properties.bluconName" title="@Strings.bluconNameTitle">
+            <settingConfig type="alphaNumeric" required="true"/>
+		</setting>
+		<setting propertyKey="@Properties.hourToDisplay" title="@Strings.hourToDisplayTitle">
+            <settingConfig type="numeric" min="1" max ="3" />
+		</setting>
+    </settings>
+</resources>

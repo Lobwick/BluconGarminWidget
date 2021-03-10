@@ -1,0 +1,8 @@
+<strings>
+    <string id="AppName">BluconGarminWidget</string>	
+	
+	<string id="bluconEmailTitle">Blucon email account</string>
+	<string id="bluconPwdTitle">Blucon password</string>
+	<string id="bluconNameTitle">Blucon Name (firstname lastname)</string>
+	<string id="hourToDisplayTitle">Select number of hours to display (1 to 3)</string>
+</strings>
