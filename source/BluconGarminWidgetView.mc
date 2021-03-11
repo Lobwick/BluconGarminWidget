@@ -2,7 +2,7 @@ using Toybox.WatchUi;
 
 class BluconGarminWidgetView extends WatchUi.View {
 
-  	hidden var mMessage = "Press menu button";
+  	hidden var mMessage = "Wait ...";
     hidden var mModel;
 	var min = 40;
 	var max = 350;
@@ -10,9 +10,7 @@ class BluconGarminWidgetView extends WatchUi.View {
 	var pause = false;
 	var timeToRefresh = 5; // min 
 	var displayValues = (hourToDisplay * 60 / timeToRefresh);
-	
-	
-	
+
 	var h = System.getDeviceSettings().screenHeight/2;
 	var w = System.getDeviceSettings().screenWidth;
 	
@@ -22,21 +20,17 @@ class BluconGarminWidgetView extends WatchUi.View {
 
     // Load your resources here
     function onLayout(dc) {
-        mMessage = "Wait communication";
         displayBlucon(dc);
     	return;
     }
 
     // Restore the state of the app and prepare the view to be shown
     function onShow() {
-    	System.println("onshow");
-    	mMessage = "Wait communication";
     	if (pause){
-    	System.println("onshowonshowonshowonshowonshow");
     		delegate.getAuthentification();
         	pause = false; 
         }
-        //WatchUi.requestUpdate();
+        WatchUi.requestUpdate();
     	return;
     }
  
@@ -56,11 +50,13 @@ class BluconGarminWidgetView extends WatchUi.View {
  		if (readings_value != null && readings_value.size() > 0 && readings_value[0] != null){
  			val = readings_value[readings_value.size()-1];
  			textSize = Graphics.FONT_NUMBER_HOT;
+ 			dc.drawText(System.getDeviceSettings().screenWidth/2, System.getDeviceSettings().screenHeight/4*3+20, Graphics.FONT_MEDIUM, updated_time, Graphics.TEXT_JUSTIFY_CENTER);
+ 			
  		}else{
  			val = mMessage;
- 			textSize =  Graphics.FONT_LARGE;
+ 			textSize =  Graphics.FONT_MEDIUM;
  		}
- 		dc.drawText(30, System.getDeviceSettings().screenHeight/4*3, textSize, val, Graphics.TEXT_JUSTIFY_LEFT);
+ 		dc.drawText(System.getDeviceSettings().screenWidth/2, System.getDeviceSettings().screenHeight/4*2.5, textSize, val, Graphics.TEXT_JUSTIFY_CENTER);
  		
  	}
   
@@ -142,24 +138,15 @@ class BluconGarminWidgetView extends WatchUi.View {
     }
 
     function onUpdate(dc) {
-    	System.println("onUpdate");
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
     	displayBlucon(dc);
     }
 
     function onHide() {
     	pause = true; 
-    	System.println("on hide pause true");
     }
 
-
-	function handleSettingUpdate(){
-		System.println("handleSettingUpdate");
-	}
-
-	// add tone notification if too low 
     function onReceive(args) {
-    	
         if (args instanceof Lang.String) {
             mMessage = args;
         }
@@ -172,5 +159,4 @@ class BluconGarminWidgetView extends WatchUi.View {
         }
         WatchUi.requestUpdate();
     }
-
 }

@@ -1,9 +1,3 @@
-//
-// Copyright 2016 by Garmin Ltd. or its subsidiaries.
-// Subject to Garmin SDK License Agreement and Wearables
-// Application Developer Agreement.
-//
-
 using Toybox.Communications;
 using Toybox.WatchUi;
 using Toybox.System as Sys;
@@ -27,15 +21,12 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
  		user_name = Communications.encodeURL(app.getProperty("bluconName"));
 		email = app.getProperty("bluconEmail");
 		password = app.getProperty("bluconPwd");
-		System.println("getSettings");
-		System.println(user_name + " " + email + " " + password);
+		hourToDisplay = app.getProperty("hourToDisplay");
 	}
 	
 	
-	    // Set up the callback to the view
     function initialize(handler) {
     	getCredentials();
-    	System.println("initialize");
         WatchUi.BehaviorDelegate.initialize();
         notify = handler;
         getAuthentification();
@@ -50,7 +41,6 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
     }
     
 	function makeRequest2(url, params, header, callBackMethod) {
-        notify.invoke("Executing\nRequest");
         var options = {
             :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_TEXT_PLAIN,
             :headers => header,
@@ -66,7 +56,6 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
 
 
     function makeRequest(url, params, header, callBackMethod) {
-        notify.invoke("Executing\nRequest");
         var options = {
             :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON,
             :headers => header,
@@ -79,9 +68,27 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
             method(callBackMethod)
         );
     }
+    
+    function checkCredentials(){
+    	if ( user_name.length() == 0){
+			notify.invoke("Fill user in app");
+			return -1;
+		}if ( email.length() == 0){
+			notify.invoke("Fill email in app");
+			return -1;
+		}if ( password.length() == 0){
+			notify.invoke("Fill password in app");
+			return -1;
+		}
+		return 0;
+    }
+    
 
 	function getAuthentification(){
-	System.println("getAuthentification");
+		notify.invoke("Loading 1/3 ...");
+		if (checkCredentials() == -1){
+				return; 
+		}
 		var header = {
                 "Content-Type" => Communications.REQUEST_CONTENT_TYPE_URL_ENCODED
         };
@@ -97,6 +104,7 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
 	}
 
 	function getUserAuthorization(){
+		notify.invoke("Loading 2/3 ...");
 		var header = {
                 "Content-Type" => Communications.REQUEST_CONTENT_TYPE_URL_ENCODED
         };
@@ -105,31 +113,21 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
 			"code " => access_token,
 			"signature" => user_name,
         };
-        makeRequest("https://www.ambrosiasys.com/app/user_authorization?grant_type=access_token&code="+access_token+"&signature=felix%20moulin", params, header, :receiveUserAuthorization);		
+        makeRequest("https://www.ambrosiasys.com/app/user_authorization?grant_type=access_token&code="+access_token+"&signature="+user_name, params, header, :receiveUserAuthorization);//		
 	}
 	
 	function getReadings(){
+		notify.invoke("Loading 3/3 ...");
 		var header = {
 				"authorization" => access_token_user,
         };
         var timeRange = getTimeRange();
-
-		var params = {
-        	"begin_date" 	=> "16136777820",//timeRange["start"],
-			"end_date" 		=> "16136792820",//timeRange["end"]
-        };
         makeRequest2("https://www.ambrosiasys.com/app/readings", timeRange, header, :receiveReadings);		
 	}
 	
 	function receiveReadings(responseCode, data) {
-		System.println("receiveReadings");
         if (responseCode == 200) {
-        	var test = stringReplace(data, "{'readings':[", "");
-        	var test2 = stringReplace(test, ", 'count':20}]", "");
-        	var test3 = stringReplace(test2, ":", "Q");        	
-        	var testtab = split(Communications.encodeURL(test3),"%22%7D%2C%7B%22");
-        	var popo = new Results(testtab);
-        	System.println("size : "+ readings_value.size() + "content : "+readings_value[0]);
+        	var res = new Results(data);
         	if (readings_value != null  && readings_value.size() > 0 && readings_value[0] != null){
         		notify.invoke(readings_value[readings_value.size()-1].toString());
             }else{
@@ -139,25 +137,22 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
         } 
     }
     
-
-
-
-    
     function receiveUserAuthorization(responseCode, data) {
-    	System.println("receiveUserAuthorization");
-        if (responseCode == 200) {
+        if (responseCode == 200  && data["access_token"] != null) {
         	access_token_user = data["access_token"];
         	expiration_token = data["expires_in"];
             getReadings();
-        } 
+        }else{
+        	notify.invoke("Check your username");
+        }
     }
 
-    // Receive the data from the web request
     function receiveAuthentification(responseCode, data) {
-    	System.println("receiveAuthentification");
-        if (responseCode == 200) {
+        if (responseCode == 200 && data["access_token"] != null) {
         	access_token = data["access_token"];
             getUserAuthorization();
+        }else{
+        	notify.invoke("Check your email/password");
         }
     }
 }

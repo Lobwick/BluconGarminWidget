@@ -41,6 +41,10 @@ function toTimestamp(strDate){
    		//return datum/1000;
 }
 
+function decodeData(data){
+	return stringReplace(stringReplace(stringReplace(data, "%3A", ":"), "%2C", ","), "%7D,%7B", "/");
+}
+
 function split(s, sep) {
 	var tokens = []; //This works ? No need for initialisation ? This is good for me, but as I have errors, I asked me if this was not there the problem
 	
@@ -52,8 +56,6 @@ function split(s, sep) {
 		found = s.find(sep);
 	}
 	
-	tokens.add(s);
-	//System.println("tokens = "+tokens); //This failed, I don't understand why
-	
+	tokens.add(s);	
 	return tokens;
 }

@@ -1,668 +1,664 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
-    <manifest filename="/Users/Felix/garmin/BluconGarminWidget/manifest.xml"/>
-    <pcToLineNum>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="2" lineNum="7" pc="268435456" symbol="timestampSecondToMs"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="2" lineNum="8" pc="268435468" symbol="timestampSecondToMs"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="2" lineNum="9" pc="268435486" symbol="timestampSecondToMs"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="12" pc="268435496" symbol="getTimeRange"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="13" pc="268435508" symbol="getTimeRange"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="14" pc="268435560" symbol="getTimeRange"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="15" pc="268435593" symbol="getTimeRange"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="16" pc="268435608" symbol="getTimeRange"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="20" pc="268435672" symbol="getTimeRange"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="23" pc="268435676" symbol="stringReplace"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="24" pc="268435688" symbol="stringReplace"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="26" pc="268435692" symbol="stringReplace"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="27" pc="268435697" symbol="stringReplace"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="29" pc="268435712" symbol="stringReplace"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="30" pc="268435719" symbol="stringReplace"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="31" pc="268435735" symbol="stringReplace"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="33" pc="268435786" symbol="stringReplace"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="36" pc="268435792" symbol="stringReplace"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="5" lineNum="39" pc="268435795" symbol="toTimestamp"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="44" pc="268435808" symbol="split"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="45" pc="268435820" symbol="split"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="47" pc="268435828" symbol="split"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="48" pc="268435843" symbol="split"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="49" pc="268435850" symbol="split"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="50" pc="268435870" symbol="split"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="51" pc="268435884" symbol="split"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="52" pc="268435922" symbol="split"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="55" pc="268435940" symbol="split"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="58" pc="268435954" symbol="split"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="8" lineNum="25" pc="268435958" symbol="getCredentials"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="8" lineNum="26" pc="268435962" symbol="getCredentials"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="8" lineNum="27" pc="268435981" symbol="getCredentials"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="8" lineNum="28" pc="268436020" symbol="getCredentials"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="8" lineNum="29" pc="268436044" symbol="getCredentials"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="8" lineNum="30" pc="268436068" symbol="getCredentials"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="8" lineNum="31" pc="268436091" symbol="getCredentials"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="36" pc="268436148" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="37" pc="268436152" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="38" pc="268436164" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="39" pc="268436187" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="40" pc="268436209" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="41" pc="268436219" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="10" lineNum="44" pc="268436232" symbol="onMenu"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="10" lineNum="45" pc="268436236" symbol="onMenu"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="11" lineNum="48" pc="268436240" symbol="onSelect"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="11" lineNum="49" pc="268436244" symbol="onSelect"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="12" lineNum="52" pc="268436248" symbol="makeRequest2"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="12" lineNum="53" pc="268436252" symbol="makeRequest2"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="12" lineNum="54" pc="268436275" symbol="makeRequest2"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="12" lineNum="59" pc="268436333" symbol="makeRequest2"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="68" pc="268436369" symbol="makeRequest"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="69" pc="268436373" symbol="makeRequest"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="70" pc="268436396" symbol="makeRequest"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="75" pc="268436454" symbol="makeRequest"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="83" pc="268436490" symbol="getAuthentification"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="84" pc="268436494" symbol="getAuthentification"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="85" pc="268436517" symbol="getAuthentification"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="88" pc="268436545" symbol="getAuthentification"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="96" pc="268436637" symbol="getAuthentification"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="99" pc="268436664" symbol="getUserAuthorization"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="100" pc="268436668" symbol="getUserAuthorization"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="103" pc="268436696" symbol="getUserAuthorization"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="108" pc="268436749" symbol="getUserAuthorization"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="111" pc="268436791" symbol="getReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="112" pc="268436795" symbol="getReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="115" pc="268436819" symbol="getReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="117" pc="268436832" symbol="getReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="121" pc="268436866" symbol="getReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="124" pc="268436893" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="125" pc="268436897" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="126" pc="268436920" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="127" pc="268436931" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="128" pc="268436956" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="129" pc="268436981" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="130" pc="268437006" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="131" pc="268437041" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="132" pc="268437067" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="133" pc="268437129" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="134" pc="268437193" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="136" pc="268437255" symbol="receiveReadings"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="18" lineNum="146" pc="268437282" symbol="receiveUserAuthorization"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="18" lineNum="147" pc="268437286" symbol="receiveUserAuthorization"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="18" lineNum="148" pc="268437309" symbol="receiveUserAuthorization"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="18" lineNum="149" pc="268437320" symbol="receiveUserAuthorization"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="18" lineNum="150" pc="268437336" symbol="receiveUserAuthorization"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="18" lineNum="151" pc="268437352" symbol="receiveUserAuthorization"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="19" lineNum="156" pc="268437368" symbol="receiveAuthentification"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="19" lineNum="157" pc="268437372" symbol="receiveAuthentification"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="19" lineNum="158" pc="268437395" symbol="receiveAuthentification"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="19" lineNum="159" pc="268437406" symbol="receiveAuthentification"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="19" lineNum="160" pc="268437422" symbol="receiveAuthentification"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="4" pc="268437438" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="5" pc="268437442" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="6" pc="268437456" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="7" pc="268437479" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="8" pc="268437502" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="9" pc="268437525" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="10" pc="268437548" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="11" pc="268437571" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="12" pc="268437594" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="13" pc="268437617" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="14" pc="268437640" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="15" pc="268437663" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="16" pc="268437686" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="17" pc="268437709" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="18" pc="268437732" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="19" pc="268437755" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="20" pc="268437778" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="21" pc="268437801" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="22" pc="268437824" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="23" pc="268437847" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="24" pc="268437870" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="25" pc="268437893" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="26" pc="268437916" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="27" pc="268437939" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="28" pc="268437962" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="29" pc="268437985" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="30" pc="268438008" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="31" pc="268438031" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="32" pc="268438054" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="33" pc="268438077" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="34" pc="268438100" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="35" pc="268438123" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="36" pc="268438146" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="37" pc="268438169" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="38" pc="268438192" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="39" pc="268438215" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="40" pc="268438238" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="41" pc="268438261" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="42" pc="268438284" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="43" pc="268438307" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="44" pc="268438330" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="45" pc="268438353" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="46" pc="268438376" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="47" pc="268438399" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="48" pc="268438422" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="49" pc="268438445" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="50" pc="268438468" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="51" pc="268438491" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="52" pc="268438514" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="53" pc="268438537" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="54" pc="268438560" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="55" pc="268438583" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="56" pc="268438606" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="57" pc="268438629" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="58" pc="268438652" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="59" pc="268438675" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="60" pc="268438698" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="61" pc="268438721" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="62" pc="268438744" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="63" pc="268438767" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="64" pc="268438790" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="65" pc="268438813" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="66" pc="268438836" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="67" pc="268438859" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="68" pc="268438882" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="69" pc="268438905" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="70" pc="268438928" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="71" pc="268438951" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="21" lineNum="72" pc="268438974" symbol="fake"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="22" lineNum="75" pc="268438998" symbol="toto"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="22" lineNum="89" pc="268439002" symbol="toto"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="22" lineNum="90" pc="268439014" symbol="toto"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="23" lineNum="100" pc="268439024" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="23" lineNum="101" pc="268439028" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="23" lineNum="1" pc="268441369" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="25" lineNum="12" pc="268439043" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="25" lineNum="13" pc="268439047" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="26" lineNum="17" pc="268439066" symbol="onStart"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="27" lineNum="21" pc="268439071" symbol="onStop"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="28" lineNum="25" pc="268439076" symbol="getInitialView"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="28" lineNum="26" pc="268439080" symbol="getInitialView"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="28" lineNum="27" pc="268439110" symbol="getInitialView"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="28" lineNum="28" pc="268439162" symbol="getInitialView"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="30" lineNum="19" pc="268439202" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="30" lineNum="20" pc="268439206" symbol="initialize"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="31" lineNum="24" pc="268439229" symbol="onLayout"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="31" lineNum="25" pc="268439233" symbol="onLayout"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="31" lineNum="26" pc="268439246" symbol="onLayout"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="31" lineNum="27" pc="268439260" symbol="onLayout"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="32" lineNum="31" pc="268439262" symbol="onShow"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="32" lineNum="32" pc="268439266" symbol="onShow"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="32" lineNum="33" pc="268439289" symbol="onShow"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="32" lineNum="34" pc="268439302" symbol="onShow"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="32" lineNum="35" pc="268439313" symbol="onShow"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="32" lineNum="36" pc="268439336" symbol="onShow"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="32" lineNum="37" pc="268439354" symbol="onShow"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="32" lineNum="40" pc="268439367" symbol="onShow"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="33" lineNum="44" pc="268439369" symbol="findTop"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="33" lineNum="45" pc="268439373" symbol="findTop"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="34" lineNum="48" pc="268439428" symbol="calcWidth"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="34" lineNum="49" pc="268439432" symbol="calcWidth"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="35" lineNum="53" pc="268439460" symbol="displayActual"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="35" lineNum="54" pc="268439464" symbol="displayActual"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="35" lineNum="55" pc="268439464" symbol="displayActual"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="35" lineNum="56" pc="268439464" symbol="displayActual"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="35" lineNum="57" pc="268439528" symbol="displayActual"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="35" lineNum="58" pc="268439562" symbol="displayActual"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="35" lineNum="60" pc="268439581" symbol="displayActual"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="35" lineNum="61" pc="268439591" symbol="displayActual"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="35" lineNum="63" pc="268439607" symbol="displayActual"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="36" lineNum="67" pc="268439678" symbol="hashLine"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="36" lineNum="68" pc="268439682" symbol="hashLine"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="36" lineNum="69" pc="268439689" symbol="hashLine"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="36" lineNum="70" pc="268439696" symbol="hashLine"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="36" lineNum="71" pc="268439725" symbol="hashLine"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="36" lineNum="72" pc="268439748" symbol="hashLine"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="36" lineNum="74" pc="268439764" symbol="hashLine"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="78" pc="268439814" symbol="displayLegend"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="79" pc="268439818" symbol="displayLegend"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="80" pc="268439849" symbol="displayLegend"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="81" pc="268439886" symbol="displayLegend"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="82" pc="268439923" symbol="displayLegend"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="83" pc="268439960" symbol="displayLegend"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="84" pc="268439997" symbol="displayLegend"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="85" pc="268440034" symbol="displayLegend"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="86" pc="268440071" symbol="displayLegend"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="87" pc="268440091" symbol="displayLegend"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="88" pc="268440120" symbol="displayLegend"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="91" pc="268440165" symbol="calculPosition"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="92" pc="268440169" symbol="calculPosition"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="93" pc="268440177" symbol="calculPosition"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="94" pc="268440184" symbol="calculPosition"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="95" pc="268440237" symbol="calculPosition"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="96" pc="268440269" symbol="calculPosition"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="97" pc="268440283" symbol="calculPosition"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="99" pc="268440306" symbol="calculPosition"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="39" lineNum="103" pc="268440310" symbol="drawCircles"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="39" lineNum="104" pc="268440314" symbol="drawCircles"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="39" lineNum="105" pc="268440324" symbol="drawCircles"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="39" lineNum="106" pc="268440364" symbol="drawCircles"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="39" lineNum="107" pc="268440388" symbol="drawCircles"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="39" lineNum="108" pc="268440412" symbol="drawCircles"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="40" lineNum="112" pc="268440433" symbol="drawLines"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="40" lineNum="113" pc="268440437" symbol="drawLines"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="40" lineNum="114" pc="268440454" symbol="drawLines"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="40" lineNum="115" pc="268440464" symbol="drawLines"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="40" lineNum="116" pc="268440504" symbol="drawLines"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="40" lineNum="117" pc="268440511" symbol="drawLines"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="40" lineNum="118" pc="268440541" symbol="drawLines"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="40" lineNum="119" pc="268440576" symbol="drawLines"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="40" lineNum="120" pc="268440583" symbol="drawLines"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="124" pc="268440607" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="125" pc="268440611" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="126" pc="268440623" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="127" pc="268440637" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="128" pc="268440651" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="129" pc="268440665" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="130" pc="268440691" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="132" pc="268440695" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="133" pc="268440714" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="138" pc="268440718" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="139" pc="268440739" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="140" pc="268440752" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="141" pc="268440770" symbol="displayBlucon"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="42" lineNum="144" pc="268440789" symbol="onUpdate"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="42" lineNum="145" pc="268440793" symbol="onUpdate"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="42" lineNum="146" pc="268440816" symbol="onUpdate"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="42" lineNum="147" pc="268440856" symbol="onUpdate"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="150" pc="268440871" symbol="onHide"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="151" pc="268440875" symbol="onHide"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="152" pc="268440885" symbol="onHide"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="44" lineNum="156" pc="268440909" symbol="handleSettingUpdate"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="44" lineNum="157" pc="268440913" symbol="handleSettingUpdate"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="161" pc="268440937" symbol="onReceive"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="163" pc="268440941" symbol="onReceive"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="164" pc="268440961" symbol="onReceive"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="166" pc="268440974" symbol="onReceive"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="167" pc="268440988" symbol="onReceive"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="168" pc="268441001" symbol="onReceive"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="169" pc="268441014" symbol="onReceive"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="170" pc="268441038" symbol="onReceive"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="173" pc="268441125" symbol="onReceive"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="12" pc="268441438" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="16" pc="268441475" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="17" pc="268441506" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="51" lineNum="16" pc="268441142" symbol="MainLayout"/>
-        <entry filename="Rez" id="51" lineNum="19" pc="268441154" symbol="MainLayout"/>
-        <entry filename="Rez" id="51" lineNum="20" pc="268441273" symbol="MainLayout"/>
-        <entry filename="Rez" id="51" lineNum="22" pc="268441337" symbol="MainLayout"/>
-    </pcToLineNum>
-    <symbolTable>
-        <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="9" method="true" symbol="timestampSecondToMs"/>
-        <entry field="true" id="24" symbol="init"/>
-        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry field="true" id="8391333" symbol="delegate"/>
-        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="46" method="true" symbol="MainLayout"/>
-        <entry id="33" method="true" symbol="hashLine"/>
-        <entry id="8388924" module="true" symbol="Gregorian"/>
-        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry id="16" object="true" symbol="Results"/>
-        <entry id="61" method="true" symbol="makeRequest2"/>
-        <entry field="true" id="41" symbol="mView"/>
-        <entry id="12" method="true" symbol="toTimestamp"/>
-        <entry id="19" object="true" symbol="BluconGarminWidgetView"/>
-        <entry field="true" id="51" symbol="AppName"/>
-        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
-        <entry id="63" method="true" symbol="getAuthentification"/>
-        <entry id="8389594" symbol="headers"/>
-        <entry id="8389080" method="true" symbol="onMenu"/>
-        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry id="8389345" symbol="rezId"/>
-        <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="39" method="true" symbol="handleSettingUpdate"/>
-        <entry id="66" method="true" symbol="receiveReadings"/>
-        <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="44" symbol="id_monkey"/>
-        <entry id="32" method="true" symbol="displayActual"/>
-        <entry id="8389124" method="true" symbol="onUpdate"/>
-        <entry field="true" id="8389065" symbol="locY"/>
-        <entry field="true" id="8389064" symbol="locX"/>
-        <entry id="67" method="true" symbol="receiveUserAuthorization"/>
-        <entry field="true" id="50" symbol="bluconNameTitle"/>
-        <entry field="true" id="8388721" symbol="min"/>
-        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-        <entry field="true" id="17" symbol="hourToDisplay"/>
-        <entry field="true" id="48" symbol="hourToDisplayTitle"/>
-        <entry field="true" id="15" symbol="readings_value"/>
-        <entry id="43" module="true" symbol="Menus"/>
-        <entry id="34" method="true" symbol="displayLegend"/>
-        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="23" symbol="max"/>
-        <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="8389063" symbol="identifier"/>
-        <entry field="true" id="54" symbol="access_token_user"/>
-        <entry id="21" method="true" symbol="toto"/>
-        <entry field="true" id="49" symbol="bluconPwdTitle"/>
-        <entry id="62" method="true" symbol="makeRequest"/>
-        <entry id="30" method="true" symbol="findTop"/>
-        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
-        <entry field="true" id="26" symbol="timeToRefresh"/>
-        <entry id="8388637" module="true" symbol="Communications"/>
-        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="65" method="true" symbol="getReadings"/>
-        <entry field="true" id="27" symbol="displayValues"/>
-        <entry id="8389844" symbol="responseType"/>
-        <entry id="20" method="true" symbol="fake"/>
-        <entry id="14" object="true" symbol="BluconGarminWidgetDelegate"/>
-        <entry id="8388786" method="true" symbol="method"/>
-        <entry field="true" id="58" symbol="email"/>
-        <entry field="true" id="22" symbol="mModel"/>
-        <entry id="13" method="true" symbol="split"/>
-        <entry id="8389619" method="true" symbol="onSelect"/>
-        <entry id="8388645" module="true" symbol="Time"/>
-        <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="11" method="true" symbol="stringReplace"/>
-        <entry field="true" id="59" symbol="password"/>
-        <entry id="40" method="true" symbol="onReceive"/>
-        <entry id="64" method="true" symbol="getUserAuthorization"/>
-        <entry id="60" method="true" symbol="getCredentials"/>
-        <entry field="true" id="52" symbol="notify"/>
-        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="45" symbol="LauncherIcon"/>
-        <entry id="8388610" symbol="statics"/>
-        <entry id="8389123" method="true" symbol="onShow"/>
-        <entry field="true" id="57" symbol="user_name"/>
-        <entry field="true" id="56" symbol="expiration_token"/>
-        <entry id="8389350" module="true" symbol="globals"/>
-        <entry id="18" object="true" symbol="BluconGarminWidgetApp"/>
-        <entry id="37" method="true" symbol="drawLines"/>
-        <entry id="38" method="true" symbol="displayBlucon"/>
-        <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry field="true" id="55" symbol="results"/>
-        <entry id="35" method="true" symbol="calculPosition"/>
-        <entry id="8388702" method="true" symbol="initialize"/>
-        <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="68" method="true" symbol="receiveAuthentification"/>
-        <entry id="31" method="true" symbol="calcWidth"/>
-        <entry id="8389280" method="true" symbol="getInitialView"/>
-        <entry field="true" id="53" symbol="access_token"/>
-        <entry id="8389281" method="true" symbol="onStop"/>
-        <entry field="true" id="8389115" symbol="mMessage"/>
-        <entry id="42" module="true" symbol="Layouts"/>
-        <entry field="true" id="25" symbol="pause"/>
-        <entry id="36" method="true" symbol="drawCircles"/>
-        <entry field="true" id="47" symbol="bluconEmailTitle"/>
-        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
-        <entry id="8389125" method="true" symbol="onHide"/>
-        <entry id="10" method="true" symbol="getTimeRange"/>
-        <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="29" symbol="w"/>
-        <entry field="true" id="28" symbol="h"/>
-    </symbolTable>
-    <localVars>
-        <entry endPc="268435495" name="str" stackId="2" startPc="268435468"/>
-        <entry arg="true" endPc="268435496" name="nb" stackId="1" startPc="268435456"/>
-        <entry endPc="268435675" name="now" stackId="1" startPc="268435508"/>
-        <entry endPc="268435675" name="res" stackId="4" startPc="268435508"/>
-        <entry endPc="268435675" name="oneDay" stackId="2" startPc="268435508"/>
-        <entry endPc="268435675" name="first" stackId="3" startPc="268435508"/>
-        <entry endPc="268435783" name="index2" stackId="6" startPc="268435719"/>
-        <entry endPc="268435789" name="index" stackId="5" startPc="268435697"/>
-        <entry endPc="268435794" name="result" stackId="4" startPc="268435688"/>
-        <entry arg="true" endPc="268435795" name="oldString" stackId="2" startPc="268435676"/>
-        <entry arg="true" endPc="268435795" name="newString" stackId="3" startPc="268435676"/>
-        <entry arg="true" endPc="268435795" name="str" stackId="1" startPc="268435676"/>
-        <entry arg="true" endPc="268435808" name="strDate" stackId="1" startPc="268435795"/>
-        <entry endPc="268435937" name="token" stackId="5" startPc="268435850"/>
-        <entry endPc="268435957" name="found" stackId="4" startPc="268435820"/>
-        <entry endPc="268435957" name="tokens" stackId="3" startPc="268435820"/>
-        <entry arg="true" endPc="268435958" name="sep" stackId="2" startPc="268435808"/>
-        <entry arg="true" endPc="268435958" name="s" stackId="1" startPc="268435808"/>
-        <entry endPc="268436147" name="app" stackId="1" startPc="268435962"/>
-        <entry arg="true" endPc="268436232" name="handler" stackId="1" startPc="268436148"/>
-        <entry endPc="268436368" name="options" stackId="5" startPc="268436252"/>
-        <entry arg="true" endPc="268436369" name="url" stackId="1" startPc="268436248"/>
-        <entry arg="true" endPc="268436369" name="params" stackId="2" startPc="268436248"/>
-        <entry arg="true" endPc="268436369" name="callBackMethod" stackId="4" startPc="268436248"/>
-        <entry arg="true" endPc="268436369" name="header" stackId="3" startPc="268436248"/>
-        <entry endPc="268436489" name="options" stackId="5" startPc="268436373"/>
-        <entry arg="true" endPc="268436490" name="url" stackId="1" startPc="268436369"/>
-        <entry arg="true" endPc="268436490" name="params" stackId="2" startPc="268436369"/>
-        <entry arg="true" endPc="268436490" name="callBackMethod" stackId="4" startPc="268436369"/>
-        <entry arg="true" endPc="268436490" name="header" stackId="3" startPc="268436369"/>
-        <entry endPc="268436663" name="params" stackId="2" startPc="268436494"/>
-        <entry endPc="268436663" name="header" stackId="1" startPc="268436494"/>
-        <entry endPc="268436790" name="params" stackId="2" startPc="268436668"/>
-        <entry endPc="268436790" name="header" stackId="1" startPc="268436668"/>
-        <entry endPc="268436892" name="timeRange" stackId="2" startPc="268436795"/>
-        <entry endPc="268436892" name="params" stackId="3" startPc="268436795"/>
-        <entry endPc="268436892" name="header" stackId="1" startPc="268436795"/>
-        <entry endPc="268437278" name="popo" stackId="7" startPc="268436931"/>
-        <entry endPc="268437278" name="test3" stackId="5" startPc="268436931"/>
-        <entry endPc="268437278" name="testtab" stackId="6" startPc="268436931"/>
-        <entry endPc="268437278" name="test2" stackId="4" startPc="268436931"/>
-        <entry endPc="268437278" name="test" stackId="3" startPc="268436931"/>
-        <entry arg="true" endPc="268437282" name="responseCode" stackId="1" startPc="268436893"/>
-        <entry arg="true" endPc="268437282" name="data" stackId="2" startPc="268436893"/>
-        <entry arg="true" endPc="268437368" name="responseCode" stackId="1" startPc="268437282"/>
-        <entry arg="true" endPc="268437368" name="data" stackId="2" startPc="268437282"/>
-        <entry arg="true" endPc="268437438" name="responseCode" stackId="1" startPc="268437368"/>
-        <entry arg="true" endPc="268437438" name="data" stackId="2" startPc="268437368"/>
-        <entry arg="true" endPc="268439024" name="json" stackId="1" startPc="268438998"/>
-        <entry arg="true" endPc="268439043" name="json" stackId="1" startPc="268439024"/>
-        <entry arg="true" endPc="268439071" name="state" stackId="1" startPc="268439066"/>
-        <entry arg="true" endPc="268439076" name="state" stackId="1" startPc="268439071"/>
-        <entry arg="true" endPc="268439262" name="dc" stackId="1" startPc="268439229"/>
-        <entry arg="true" endPc="268439428" name="h" stackId="1" startPc="268439369"/>
-        <entry arg="true" endPc="268439428" name="value" stackId="2" startPc="268439369"/>
-        <entry arg="true" endPc="268439460" name="screenWidth" stackId="1" startPc="268439428"/>
-        <entry endPc="268439677" name="textSize" stackId="3" startPc="268439464"/>
-        <entry endPc="268439677" name="val" stackId="2" startPc="268439464"/>
-        <entry arg="true" endPc="268439678" name="dc" stackId="1" startPc="268439460"/>
-        <entry endPc="268439813" name="i" stackId="4" startPc="268439682"/>
-        <entry endPc="268439813" name="space" stackId="5" startPc="268439682"/>
-        <entry arg="true" endPc="268439814" name="dc" stackId="2" startPc="268439678"/>
-        <entry arg="true" endPc="268439814" name="val" stackId="3" startPc="268439678"/>
-        <entry arg="true" endPc="268439814" name="y" stackId="1" startPc="268439678"/>
-        <entry endPc="268440164" name="bottom" stackId="3" startPc="268439818"/>
-        <entry endPc="268440164" name="h" stackId="2" startPc="268439818"/>
-        <entry arg="true" endPc="268440165" name="dc" stackId="1" startPc="268439814"/>
-        <entry endPc="268440293" name="tmp" stackId="4" startPc="268440237"/>
-        <entry endPc="268440306" name="i" stackId="3" startPc="268440237"/>
-        <entry endPc="268440309" name="position" stackId="1" startPc="268440169"/>
-        <entry endPc="268440309" name="c" stackId="2" startPc="268440169"/>
-        <entry endPc="268440432" name="i" stackId="5" startPc="268440388"/>
-        <entry endPc="268440432" name="next" stackId="4" startPc="268440314"/>
-        <entry arg="true" endPc="268440433" name="position" stackId="3" startPc="268440310"/>
-        <entry arg="true" endPc="268440433" name="dc" stackId="1" startPc="268440310"/>
-        <entry arg="true" endPc="268440433" name="widthCol" stackId="2" startPc="268440310"/>
-        <entry endPc="268440606" name="i" stackId="6" startPc="268440541"/>
-        <entry endPc="268440606" name="next" stackId="4" startPc="268440437"/>
-        <entry endPc="268440606" name="c" stackId="5" startPc="268440437"/>
-        <entry arg="true" endPc="268440607" name="position" stackId="3" startPc="268440433"/>
-        <entry arg="true" endPc="268440607" name="dc" stackId="1" startPc="268440433"/>
-        <entry arg="true" endPc="268440607" name="widthCol" stackId="2" startPc="268440433"/>
-        <entry endPc="268440788" name="position" stackId="3" startPc="268440611"/>
-        <entry endPc="268440788" name="widthCol" stackId="2" startPc="268440611"/>
-        <entry arg="true" endPc="268440789" name="dc" stackId="1" startPc="268440607"/>
-        <entry arg="true" endPc="268440871" name="dc" stackId="1" startPc="268440789"/>
-        <entry endPc="268441122" name="i" stackId="3" startPc="268441038"/>
-        <entry endPc="268441122" name="keys" stackId="2" startPc="268440988"/>
-        <entry arg="true" endPc="268441142" name="args" stackId="1" startPc="268440937"/>
-        <entry endPc="268441354" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268441154"/>
-        <entry arg="true" endPc="268441355" name="dc" stackId="1" startPc="268441142"/>
-    </localVars>
-    <annotations/>
-    <dataEntryOffsetMappings>
-        <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry offset="230" parentId="globals" symbolId="Results" type="class"/>
-        <dataEntry offset="293" parentId="globals" symbolId="BluconGarminWidgetView" type="class"/>
-        <dataEntry offset="540" parentId="globals" symbolId="BluconGarminWidgetApp" type="class"/>
-        <dataEntry offset="619" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry offset="698" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry offset="745" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry offset="776" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry offset="807" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry offset="846" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry offset="877" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="948" parentId="globals" symbolId="BluconGarminWidgetDelegate" type="class"/>
-    </dataEntryOffsetMappings>
-    <functions>
-        <functionEntry accessMode="public" name="timestampSecondToMs">
-            <param id="nb"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="getTimeRange">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="stringReplace">
-            <param id="str"/>
-            <param id="oldString"/>
-            <param id="newString"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="toTimestamp">
-            <param id="strDate"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="split">
-            <param id="s"/>
-            <param id="sep"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="getCredentials" parent="BluconGarminWidgetDelegate">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="initialize" parent="BluconGarminWidgetDelegate">
-            <param id="handler"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onMenu" parent="BluconGarminWidgetDelegate">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onSelect" parent="BluconGarminWidgetDelegate">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="makeRequest2" parent="BluconGarminWidgetDelegate">
-            <param id="url"/>
-            <param id="params"/>
-            <param id="header"/>
-            <param id="callBackMethod"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="makeRequest" parent="BluconGarminWidgetDelegate">
-            <param id="url"/>
-            <param id="params"/>
-            <param id="header"/>
-            <param id="callBackMethod"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="getAuthentification" parent="BluconGarminWidgetDelegate">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="getUserAuthorization" parent="BluconGarminWidgetDelegate">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="getReadings" parent="BluconGarminWidgetDelegate">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="receiveReadings" parent="BluconGarminWidgetDelegate">
-            <param id="responseCode"/>
-            <param id="data"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="receiveUserAuthorization" parent="BluconGarminWidgetDelegate">
-            <param id="responseCode"/>
-            <param id="data"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="receiveAuthentification" parent="BluconGarminWidgetDelegate">
-            <param id="responseCode"/>
-            <param id="data"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="fake" parent="Results">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="toto" parent="Results">
-            <param id="json"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="initialize" parent="Results">
-            <param id="json"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="initialize" parent="BluconGarminWidgetApp">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onStart" parent="BluconGarminWidgetApp">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onStop" parent="BluconGarminWidgetApp">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="getInitialView" parent="BluconGarminWidgetApp">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="initialize" parent="BluconGarminWidgetView">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onLayout" parent="BluconGarminWidgetView">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onShow" parent="BluconGarminWidgetView">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="findTop" parent="BluconGarminWidgetView">
-            <param id="h"/>
-            <param id="value"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="calcWidth" parent="BluconGarminWidgetView">
-            <param id="screenWidth"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="displayActual" parent="BluconGarminWidgetView">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="hashLine" parent="BluconGarminWidgetView">
-            <param id="y"/>
-            <param id="dc"/>
-            <param id="val"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="displayLegend" parent="BluconGarminWidgetView">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="calculPosition" parent="BluconGarminWidgetView">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="drawCircles" parent="BluconGarminWidgetView">
-            <param id="dc"/>
-            <param id="widthCol"/>
-            <param id="position"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="drawLines" parent="BluconGarminWidgetView">
-            <param id="dc"/>
-            <param id="widthCol"/>
-            <param id="position"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="displayBlucon" parent="BluconGarminWidgetView">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onUpdate" parent="BluconGarminWidgetView">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onHide" parent="BluconGarminWidgetView">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="handleSettingUpdate" parent="BluconGarminWidgetView">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onReceive" parent="BluconGarminWidgetView">
-            <param id="args"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-    </functions>
+<manifest filename="/Users/Felix/garmin/BluconGarminWidget/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="2" lineNum="7" pc="268435456" symbol="timestampSecondToMs"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="2" lineNum="8" pc="268435468" symbol="timestampSecondToMs"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="2" lineNum="9" pc="268435486" symbol="timestampSecondToMs"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="12" pc="268435496" symbol="getTimeRange"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="13" pc="268435508" symbol="getTimeRange"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="14" pc="268435560" symbol="getTimeRange"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="15" pc="268435593" symbol="getTimeRange"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="16" pc="268435608" symbol="getTimeRange"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="3" lineNum="20" pc="268435672" symbol="getTimeRange"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="23" pc="268435676" symbol="stringReplace"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="24" pc="268435688" symbol="stringReplace"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="26" pc="268435692" symbol="stringReplace"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="27" pc="268435697" symbol="stringReplace"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="29" pc="268435712" symbol="stringReplace"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="30" pc="268435719" symbol="stringReplace"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="31" pc="268435735" symbol="stringReplace"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="33" pc="268435786" symbol="stringReplace"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="4" lineNum="36" pc="268435792" symbol="stringReplace"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="5" lineNum="39" pc="268435795" symbol="toTimestamp"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="44" pc="268435808" symbol="decodeData"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="6" lineNum="45" pc="268435820" symbol="decodeData"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="7" lineNum="48" pc="268435887" symbol="split"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="7" lineNum="49" pc="268435899" symbol="split"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="7" lineNum="51" pc="268435907" symbol="split"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="7" lineNum="52" pc="268435922" symbol="split"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="7" lineNum="53" pc="268435929" symbol="split"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="7" lineNum="54" pc="268435949" symbol="split"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="7" lineNum="55" pc="268435963" symbol="split"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="7" lineNum="56" pc="268436001" symbol="split"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="7" lineNum="59" pc="268436019" symbol="split"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Utils.mc" id="7" lineNum="60" pc="268436033" symbol="split"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="19" pc="268436037" symbol="getCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="20" pc="268436041" symbol="getCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="21" pc="268436060" symbol="getCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="22" pc="268436099" symbol="getCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="23" pc="268436123" symbol="getCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="9" lineNum="24" pc="268436147" symbol="getCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="10" lineNum="28" pc="268436172" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="10" lineNum="29" pc="268436176" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="10" lineNum="30" pc="268436188" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="10" lineNum="31" pc="268436210" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="10" lineNum="32" pc="268436220" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="11" lineNum="35" pc="268436233" symbol="onMenu"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="11" lineNum="36" pc="268436237" symbol="onMenu"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="12" lineNum="39" pc="268436241" symbol="onSelect"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="12" lineNum="40" pc="268436245" symbol="onSelect"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="43" pc="268436249" symbol="makeRequest2"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="44" pc="268436253" symbol="makeRequest2"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="49" pc="268436311" symbol="makeRequest2"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="58" pc="268436347" symbol="makeRequest"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="59" pc="268436351" symbol="makeRequest"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="64" pc="268436409" symbol="makeRequest"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="72" pc="268436445" symbol="checkCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="73" pc="268436449" symbol="checkCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="74" pc="268436475" symbol="checkCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="75" pc="268436498" symbol="checkCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="76" pc="268436507" symbol="checkCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="77" pc="268436533" symbol="checkCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="78" pc="268436556" symbol="checkCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="79" pc="268436565" symbol="checkCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="80" pc="268436591" symbol="checkCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="81" pc="268436614" symbol="checkCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="83" pc="268436623" symbol="checkCredentials"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="87" pc="268436630" symbol="getAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="88" pc="268436634" symbol="getAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="89" pc="268436657" symbol="getAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="90" pc="268436677" symbol="getAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="92" pc="268436681" symbol="getAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="95" pc="268436709" symbol="getAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="16" lineNum="103" pc="268436801" symbol="getAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="106" pc="268436828" symbol="getUserAuthorization"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="107" pc="268436832" symbol="getUserAuthorization"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="108" pc="268436855" symbol="getUserAuthorization"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="111" pc="268436883" symbol="getUserAuthorization"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="17" lineNum="116" pc="268436936" symbol="getUserAuthorization"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="18" lineNum="119" pc="268436987" symbol="getReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="18" lineNum="120" pc="268436991" symbol="getReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="18" lineNum="121" pc="268437014" symbol="getReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="18" lineNum="124" pc="268437038" symbol="getReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="18" lineNum="125" pc="268437051" symbol="getReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="19" lineNum="128" pc="268437078" symbol="receiveReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="19" lineNum="129" pc="268437082" symbol="receiveReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="19" lineNum="130" pc="268437093" symbol="receiveReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="19" lineNum="131" pc="268437119" symbol="receiveReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="19" lineNum="132" pc="268437183" symbol="receiveReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="19" lineNum="134" pc="268437245" symbol="receiveReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="20" lineNum="140" pc="268437272" symbol="receiveUserAuthorization"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="20" lineNum="141" pc="268437276" symbol="receiveUserAuthorization"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="20" lineNum="142" pc="268437303" symbol="receiveUserAuthorization"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="20" lineNum="143" pc="268437319" symbol="receiveUserAuthorization"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="20" lineNum="144" pc="268437335" symbol="receiveUserAuthorization"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="20" lineNum="146" pc="268437350" symbol="receiveUserAuthorization"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="21" lineNum="150" pc="268437374" symbol="receiveAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="21" lineNum="151" pc="268437378" symbol="receiveAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="21" lineNum="152" pc="268437405" symbol="receiveAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="21" lineNum="153" pc="268437421" symbol="receiveAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="21" lineNum="155" pc="268437436" symbol="receiveAuthentification"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="23" lineNum="6" pc="268437460" symbol="cleanData"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="23" lineNum="7" pc="268437464" symbol="cleanData"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="23" lineNum="8" pc="268437489" symbol="cleanData"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="23" lineNum="9" pc="268437510" symbol="cleanData"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="23" lineNum="10" pc="268437535" symbol="cleanData"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="24" lineNum="13" pc="268437550" symbol="getReadFromLine"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="24" lineNum="14" pc="268437554" symbol="getReadFromLine"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="25" lineNum="17" pc="268437588" symbol="getLastUpdate"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="25" lineNum="18" pc="268437592" symbol="getLastUpdate"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="25" lineNum="19" pc="268437666" symbol="getLastUpdate"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="25" lineNum="20" pc="268437704" symbol="getLastUpdate"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="25" lineNum="21" pc="268437735" symbol="getLastUpdate"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="26" lineNum="24" pc="268437829" symbol="getLastReadAndTime"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="26" lineNum="25" pc="268437833" symbol="getLastReadAndTime"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="26" lineNum="26" pc="268437844" symbol="getLastReadAndTime"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="26" lineNum="27" pc="268437867" symbol="getLastReadAndTime"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="26" lineNum="28" pc="268437904" symbol="getLastReadAndTime"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="27" lineNum="32" pc="268437935" symbol="parseReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="27" lineNum="33" pc="268437939" symbol="parseReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="27" lineNum="34" pc="268437969" symbol="parseReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="27" lineNum="35" pc="268438007" symbol="parseReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="27" lineNum="36" pc="268438030" symbol="parseReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="27" lineNum="38" pc="268438080" symbol="parseReadings"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="28" lineNum="41" pc="268438112" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="28" lineNum="42" pc="268438116" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/Results.mc" id="28" lineNum="43" pc="268438131" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="30" lineNum="13" pc="268438162" symbol="onSettingsChanged"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="30" lineNum="14" pc="268438166" symbol="onSettingsChanged"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="30" lineNum="15" pc="268438183" symbol="onSettingsChanged"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="31" lineNum="18" pc="268438208" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="31" lineNum="19" pc="268438212" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="32" lineNum="23" pc="268438231" symbol="onStart"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="33" lineNum="27" pc="268438236" symbol="onStop"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="34" lineNum="31" pc="268438241" symbol="getInitialView"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="34" lineNum="32" pc="268438245" symbol="getInitialView"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="34" lineNum="33" pc="268438275" symbol="getInitialView"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="34" lineNum="34" pc="268438327" symbol="getInitialView"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="34" lineNum="5" pc="268440546" symbol="&lt;init&gt;"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="36" lineNum="17" pc="268438367" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="36" lineNum="18" pc="268438371" symbol="initialize"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="22" pc="268438394" symbol="onLayout"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="23" pc="268438398" symbol="onLayout"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="24" pc="268438412" symbol="onLayout"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="28" pc="268438414" symbol="onShow"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="29" pc="268438418" symbol="onShow"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="30" pc="268438429" symbol="onShow"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="31" pc="268438447" symbol="onShow"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="33" pc="268438460" symbol="onShow"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="38" lineNum="34" pc="268438476" symbol="onShow"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="39" lineNum="38" pc="268438478" symbol="findTop"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="39" lineNum="39" pc="268438482" symbol="findTop"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="40" lineNum="42" pc="268438537" symbol="calcWidth"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="40" lineNum="43" pc="268438541" symbol="calcWidth"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="47" pc="268438569" symbol="displayActual"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="48" pc="268438573" symbol="displayActual"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="49" pc="268438573" symbol="displayActual"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="50" pc="268438573" symbol="displayActual"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="51" pc="268438637" symbol="displayActual"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="52" pc="268438671" symbol="displayActual"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="53" pc="268438687" symbol="displayActual"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="56" pc="268438808" symbol="displayActual"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="57" pc="268438818" symbol="displayActual"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="41" lineNum="59" pc="268438834" symbol="displayActual"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="42" lineNum="63" pc="268438929" symbol="hashLine"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="42" lineNum="64" pc="268438933" symbol="hashLine"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="42" lineNum="65" pc="268438940" symbol="hashLine"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="42" lineNum="66" pc="268438947" symbol="hashLine"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="42" lineNum="67" pc="268438976" symbol="hashLine"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="42" lineNum="68" pc="268438999" symbol="hashLine"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="42" lineNum="70" pc="268439015" symbol="hashLine"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="74" pc="268439065" symbol="displayLegend"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="75" pc="268439069" symbol="displayLegend"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="76" pc="268439100" symbol="displayLegend"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="77" pc="268439137" symbol="displayLegend"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="78" pc="268439174" symbol="displayLegend"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="79" pc="268439211" symbol="displayLegend"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="80" pc="268439248" symbol="displayLegend"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="81" pc="268439285" symbol="displayLegend"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="82" pc="268439322" symbol="displayLegend"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="83" pc="268439342" symbol="displayLegend"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="43" lineNum="84" pc="268439371" symbol="displayLegend"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="44" lineNum="87" pc="268439416" symbol="calculPosition"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="44" lineNum="88" pc="268439420" symbol="calculPosition"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="44" lineNum="89" pc="268439428" symbol="calculPosition"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="44" lineNum="90" pc="268439435" symbol="calculPosition"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="44" lineNum="91" pc="268439488" symbol="calculPosition"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="44" lineNum="92" pc="268439520" symbol="calculPosition"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="44" lineNum="93" pc="268439534" symbol="calculPosition"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="44" lineNum="95" pc="268439557" symbol="calculPosition"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="99" pc="268439561" symbol="drawCircles"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="100" pc="268439565" symbol="drawCircles"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="101" pc="268439575" symbol="drawCircles"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="102" pc="268439615" symbol="drawCircles"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="103" pc="268439639" symbol="drawCircles"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="45" lineNum="104" pc="268439663" symbol="drawCircles"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="46" lineNum="108" pc="268439684" symbol="drawLines"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="46" lineNum="109" pc="268439688" symbol="drawLines"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="46" lineNum="110" pc="268439705" symbol="drawLines"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="46" lineNum="111" pc="268439715" symbol="drawLines"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="46" lineNum="112" pc="268439755" symbol="drawLines"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="46" lineNum="113" pc="268439762" symbol="drawLines"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="46" lineNum="114" pc="268439792" symbol="drawLines"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="46" lineNum="115" pc="268439827" symbol="drawLines"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="46" lineNum="116" pc="268439834" symbol="drawLines"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="120" pc="268439858" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="121" pc="268439862" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="122" pc="268439874" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="123" pc="268439888" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="124" pc="268439902" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="125" pc="268439916" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="126" pc="268439942" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="128" pc="268439946" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="129" pc="268439965" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="134" pc="268439969" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="135" pc="268439990" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="136" pc="268440003" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="47" lineNum="137" pc="268440021" symbol="displayBlucon"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="48" lineNum="140" pc="268440040" symbol="onUpdate"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="48" lineNum="141" pc="268440044" symbol="onUpdate"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="48" lineNum="142" pc="268440084" symbol="onUpdate"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="49" lineNum="145" pc="268440099" symbol="onHide"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="49" lineNum="146" pc="268440103" symbol="onHide"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="149" pc="268440114" symbol="onReceive"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="150" pc="268440118" symbol="onReceive"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="151" pc="268440138" symbol="onReceive"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="153" pc="268440151" symbol="onReceive"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="154" pc="268440165" symbol="onReceive"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="155" pc="268440178" symbol="onReceive"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="156" pc="268440191" symbol="onReceive"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="157" pc="268440215" symbol="onReceive"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="160" pc="268440302" symbol="onReceive"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="12" pc="268440615" symbol="&lt;init&gt;"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="14" pc="268440652" symbol="&lt;init&gt;"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="15" pc="268440683" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="56" lineNum="16" pc="268440319" symbol="MainLayout"/>
+<entry filename="Rez" id="56" lineNum="19" pc="268440331" symbol="MainLayout"/>
+<entry filename="Rez" id="56" lineNum="20" pc="268440450" symbol="MainLayout"/>
+<entry filename="Rez" id="56" lineNum="22" pc="268440514" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="9" method="true" symbol="timestampSecondToMs"/>
+<entry field="true" id="51" symbol="errorEmail"/>
+<entry field="true" id="29" symbol="init"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="8391333" symbol="delegate"/>
+<entry id="4" module="true" symbol="globals/Rez/Menus"/>
+<entry id="50" method="true" symbol="MainLayout"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry id="38" method="true" symbol="hashLine"/>
+<entry field="true" id="52" symbol="errorPwd"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="16" object="true" symbol="Results"/>
+<entry id="68" method="true" symbol="makeRequest2"/>
+<entry field="true" id="45" symbol="mView"/>
+<entry id="12" method="true" symbol="toTimestamp"/>
+<entry id="21" object="true" symbol="BluconGarminWidgetView"/>
+<entry id="25" method="true" symbol="getLastReadAndTime"/>
+<entry field="true" id="58" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="71" method="true" symbol="getAuthentification"/>
+<entry id="8389594" symbol="headers"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="23" method="true" symbol="getReadFromLine"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="22" method="true" symbol="cleanData"/>
+<entry id="74" method="true" symbol="receiveReadings"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="48" symbol="id_monkey"/>
+<entry id="37" method="true" symbol="displayActual"/>
+<entry field="true" id="55" symbol="errorUser"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="75" method="true" symbol="receiveUserAuthorization"/>
+<entry field="true" id="57" symbol="bluconNameTitle"/>
+<entry field="true" id="8388721" symbol="min"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry field="true" id="17" symbol="hourToDisplay"/>
+<entry field="true" id="54" symbol="hourToDisplayTitle"/>
+<entry field="true" id="18" symbol="readings_value"/>
+<entry id="47" module="true" symbol="Menus"/>
+<entry id="39" method="true" symbol="displayLegend"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="28" symbol="max"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry field="true" id="61" symbol="access_token_user"/>
+<entry field="true" id="56" symbol="bluconPwdTitle"/>
+<entry id="69" method="true" symbol="makeRequest"/>
+<entry id="35" method="true" symbol="findTop"/>
+<entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="26" method="true" symbol="parseReadings"/>
+<entry field="true" id="31" symbol="timeToRefresh"/>
+<entry id="8388637" module="true" symbol="Communications"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="73" method="true" symbol="getReadings"/>
+<entry field="true" id="32" symbol="displayValues"/>
+<entry id="8389844" symbol="responseType"/>
+<entry id="15" object="true" symbol="BluconGarminWidgetDelegate"/>
+<entry id="8388786" method="true" symbol="method"/>
+<entry field="true" id="65" symbol="email"/>
+<entry field="true" id="27" symbol="mModel"/>
+<entry id="14" method="true" symbol="split"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry field="true" id="19" symbol="updated_time"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="11" method="true" symbol="stringReplace"/>
+<entry field="true" id="66" symbol="password"/>
+<entry id="44" method="true" symbol="onReceive"/>
+<entry id="72" method="true" symbol="getUserAuthorization"/>
+<entry id="67" method="true" symbol="getCredentials"/>
+<entry field="true" id="59" symbol="notify"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="49" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="64" symbol="user_name"/>
+<entry field="true" id="63" symbol="expiration_token"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="20" object="true" symbol="BluconGarminWidgetApp"/>
+<entry id="42" method="true" symbol="drawLines"/>
+<entry id="43" method="true" symbol="displayBlucon"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="62" symbol="results"/>
+<entry id="40" method="true" symbol="calculPosition"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="24" method="true" symbol="getLastUpdate"/>
+<entry id="70" method="true" symbol="checkCredentials"/>
+<entry id="76" method="true" symbol="receiveAuthentification"/>
+<entry id="36" method="true" symbol="calcWidth"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry field="true" id="60" symbol="access_token"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="13" method="true" symbol="decodeData"/>
+<entry field="true" id="8389115" symbol="mMessage"/>
+<entry id="46" module="true" symbol="Layouts"/>
+<entry field="true" id="30" symbol="pause"/>
+<entry id="41" method="true" symbol="drawCircles"/>
+<entry field="true" id="53" symbol="bluconEmailTitle"/>
+<entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="10" method="true" symbol="getTimeRange"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="34" symbol="w"/>
+<entry field="true" id="33" symbol="h"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435495" name="str" stackId="2" startPc="268435468"/>
+<entry arg="true" endPc="268435496" name="nb" stackId="1" startPc="268435456"/>
+<entry endPc="268435675" name="now" stackId="1" startPc="268435508"/>
+<entry endPc="268435675" name="res" stackId="4" startPc="268435508"/>
+<entry endPc="268435675" name="oneDay" stackId="2" startPc="268435508"/>
+<entry endPc="268435675" name="first" stackId="3" startPc="268435508"/>
+<entry endPc="268435783" name="index2" stackId="6" startPc="268435719"/>
+<entry endPc="268435789" name="index" stackId="5" startPc="268435697"/>
+<entry endPc="268435794" name="result" stackId="4" startPc="268435688"/>
+<entry arg="true" endPc="268435795" name="oldString" stackId="2" startPc="268435676"/>
+<entry arg="true" endPc="268435795" name="newString" stackId="3" startPc="268435676"/>
+<entry arg="true" endPc="268435795" name="str" stackId="1" startPc="268435676"/>
+<entry arg="true" endPc="268435808" name="strDate" stackId="1" startPc="268435795"/>
+<entry arg="true" endPc="268435887" name="data" stackId="1" startPc="268435808"/>
+<entry endPc="268436016" name="token" stackId="5" startPc="268435929"/>
+<entry endPc="268436036" name="found" stackId="4" startPc="268435899"/>
+<entry endPc="268436036" name="tokens" stackId="3" startPc="268435899"/>
+<entry arg="true" endPc="268436037" name="sep" stackId="2" startPc="268435887"/>
+<entry arg="true" endPc="268436037" name="s" stackId="1" startPc="268435887"/>
+<entry endPc="268436171" name="app" stackId="1" startPc="268436041"/>
+<entry arg="true" endPc="268436233" name="handler" stackId="1" startPc="268436172"/>
+<entry endPc="268436346" name="options" stackId="5" startPc="268436253"/>
+<entry arg="true" endPc="268436347" name="url" stackId="1" startPc="268436249"/>
+<entry arg="true" endPc="268436347" name="params" stackId="2" startPc="268436249"/>
+<entry arg="true" endPc="268436347" name="callBackMethod" stackId="4" startPc="268436249"/>
+<entry arg="true" endPc="268436347" name="header" stackId="3" startPc="268436249"/>
+<entry endPc="268436444" name="options" stackId="5" startPc="268436351"/>
+<entry arg="true" endPc="268436445" name="url" stackId="1" startPc="268436347"/>
+<entry arg="true" endPc="268436445" name="params" stackId="2" startPc="268436347"/>
+<entry arg="true" endPc="268436445" name="callBackMethod" stackId="4" startPc="268436347"/>
+<entry arg="true" endPc="268436445" name="header" stackId="3" startPc="268436347"/>
+<entry endPc="268436827" name="params" stackId="2" startPc="268436634"/>
+<entry endPc="268436827" name="header" stackId="1" startPc="268436634"/>
+<entry endPc="268436986" name="params" stackId="2" startPc="268436832"/>
+<entry endPc="268436986" name="header" stackId="1" startPc="268436832"/>
+<entry endPc="268437077" name="timeRange" stackId="2" startPc="268436991"/>
+<entry endPc="268437077" name="header" stackId="1" startPc="268436991"/>
+<entry endPc="268437268" name="res" stackId="3" startPc="268437093"/>
+<entry arg="true" endPc="268437272" name="responseCode" stackId="1" startPc="268437078"/>
+<entry arg="true" endPc="268437272" name="data" stackId="2" startPc="268437078"/>
+<entry arg="true" endPc="268437374" name="responseCode" stackId="1" startPc="268437272"/>
+<entry arg="true" endPc="268437374" name="data" stackId="2" startPc="268437272"/>
+<entry arg="true" endPc="268437460" name="responseCode" stackId="1" startPc="268437374"/>
+<entry arg="true" endPc="268437460" name="data" stackId="2" startPc="268437374"/>
+<entry endPc="268437549" name="encoded_clean" stackId="4" startPc="268437464"/>
+<entry endPc="268437549" name="no_array" stackId="2" startPc="268437464"/>
+<entry endPc="268437549" name="encoded" stackId="3" startPc="268437464"/>
+<entry arg="true" endPc="268437550" name="data" stackId="1" startPc="268437460"/>
+<entry arg="true" endPc="268437588" name="line" stackId="1" startPc="268437550"/>
+<entry endPc="268437828" name="date" stackId="4" startPc="268437592"/>
+<entry endPc="268437828" name="timestamp" stackId="2" startPc="268437592"/>
+<entry endPc="268437828" name="moment" stackId="3" startPc="268437592"/>
+<entry arg="true" endPc="268437829" name="line" stackId="1" startPc="268437588"/>
+<entry endPc="268437931" name="line" stackId="3" startPc="268437844"/>
+<entry arg="true" endPc="268437935" name="last_line" stackId="2" startPc="268437829"/>
+<entry arg="true" endPc="268437935" name="data" stackId="1" startPc="268437829"/>
+<entry endPc="268438067" name="line" stackId="3" startPc="268437969"/>
+<entry endPc="268438080" name="i" stackId="2" startPc="268437969"/>
+<entry arg="true" endPc="268438112" name="data" stackId="1" startPc="268437935"/>
+<entry arg="true" endPc="268438162" name="data" stackId="1" startPc="268438112"/>
+<entry endPc="268438207" name="app" stackId="1" startPc="268438166"/>
+<entry arg="true" endPc="268438236" name="state" stackId="1" startPc="268438231"/>
+<entry arg="true" endPc="268438241" name="state" stackId="1" startPc="268438236"/>
+<entry arg="true" endPc="268438414" name="dc" stackId="1" startPc="268438394"/>
+<entry arg="true" endPc="268438537" name="h" stackId="1" startPc="268438478"/>
+<entry arg="true" endPc="268438537" name="value" stackId="2" startPc="268438478"/>
+<entry arg="true" endPc="268438569" name="screenWidth" stackId="1" startPc="268438537"/>
+<entry endPc="268438928" name="textSize" stackId="3" startPc="268438573"/>
+<entry endPc="268438928" name="val" stackId="2" startPc="268438573"/>
+<entry arg="true" endPc="268438929" name="dc" stackId="1" startPc="268438569"/>
+<entry endPc="268439064" name="i" stackId="4" startPc="268438933"/>
+<entry endPc="268439064" name="space" stackId="5" startPc="268438933"/>
+<entry arg="true" endPc="268439065" name="dc" stackId="2" startPc="268438929"/>
+<entry arg="true" endPc="268439065" name="val" stackId="3" startPc="268438929"/>
+<entry arg="true" endPc="268439065" name="y" stackId="1" startPc="268438929"/>
+<entry endPc="268439415" name="bottom" stackId="3" startPc="268439069"/>
+<entry endPc="268439415" name="h" stackId="2" startPc="268439069"/>
+<entry arg="true" endPc="268439416" name="dc" stackId="1" startPc="268439065"/>
+<entry endPc="268439544" name="tmp" stackId="4" startPc="268439488"/>
+<entry endPc="268439557" name="i" stackId="3" startPc="268439488"/>
+<entry endPc="268439560" name="position" stackId="1" startPc="268439420"/>
+<entry endPc="268439560" name="c" stackId="2" startPc="268439420"/>
+<entry endPc="268439683" name="i" stackId="5" startPc="268439639"/>
+<entry endPc="268439683" name="next" stackId="4" startPc="268439565"/>
+<entry arg="true" endPc="268439684" name="position" stackId="3" startPc="268439561"/>
+<entry arg="true" endPc="268439684" name="dc" stackId="1" startPc="268439561"/>
+<entry arg="true" endPc="268439684" name="widthCol" stackId="2" startPc="268439561"/>
+<entry endPc="268439857" name="i" stackId="6" startPc="268439792"/>
+<entry endPc="268439857" name="next" stackId="4" startPc="268439688"/>
+<entry endPc="268439857" name="c" stackId="5" startPc="268439688"/>
+<entry arg="true" endPc="268439858" name="position" stackId="3" startPc="268439684"/>
+<entry arg="true" endPc="268439858" name="dc" stackId="1" startPc="268439684"/>
+<entry arg="true" endPc="268439858" name="widthCol" stackId="2" startPc="268439684"/>
+<entry endPc="268440039" name="position" stackId="3" startPc="268439862"/>
+<entry endPc="268440039" name="widthCol" stackId="2" startPc="268439862"/>
+<entry arg="true" endPc="268440040" name="dc" stackId="1" startPc="268439858"/>
+<entry arg="true" endPc="268440099" name="dc" stackId="1" startPc="268440040"/>
+<entry endPc="268440299" name="i" stackId="3" startPc="268440215"/>
+<entry endPc="268440299" name="keys" stackId="2" startPc="268440165"/>
+<entry arg="true" endPc="268440319" name="args" stackId="1" startPc="268440114"/>
+<entry endPc="268440531" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268440331"/>
+<entry arg="true" endPc="268440532" name="dc" stackId="1" startPc="268440319"/>
+</localVars>
+<annotations/>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="246" parentId="globals" symbolId="Results" type="class"/>
+<dataEntry offset="333" parentId="globals" symbolId="BluconGarminWidgetView" type="class"/>
+<dataEntry offset="572" parentId="globals" symbolId="BluconGarminWidgetApp" type="class"/>
+<dataEntry offset="659" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="738" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="785" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="816" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="847" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="886" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="917" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1012" parentId="globals" symbolId="BluconGarminWidgetDelegate" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" name="timestampSecondToMs">
+<param id="nb"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getTimeRange">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="stringReplace">
+<param id="str"/>
+<param id="oldString"/>
+<param id="newString"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="toTimestamp">
+<param id="strDate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="decodeData">
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="split">
+<param id="s"/>
+<param id="sep"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getCredentials" parent="BluconGarminWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="BluconGarminWidgetDelegate">
+<param id="handler"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onMenu" parent="BluconGarminWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="BluconGarminWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="makeRequest2" parent="BluconGarminWidgetDelegate">
+<param id="url"/>
+<param id="params"/>
+<param id="header"/>
+<param id="callBackMethod"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="makeRequest" parent="BluconGarminWidgetDelegate">
+<param id="url"/>
+<param id="params"/>
+<param id="header"/>
+<param id="callBackMethod"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="checkCredentials" parent="BluconGarminWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getAuthentification" parent="BluconGarminWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getUserAuthorization" parent="BluconGarminWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getReadings" parent="BluconGarminWidgetDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="receiveReadings" parent="BluconGarminWidgetDelegate">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="receiveUserAuthorization" parent="BluconGarminWidgetDelegate">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="receiveAuthentification" parent="BluconGarminWidgetDelegate">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="cleanData" parent="Results">
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getReadFromLine" parent="Results">
+<param id="line"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getLastUpdate" parent="Results">
+<param id="line"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getLastReadAndTime" parent="Results">
+<param id="data"/>
+<param id="last_line"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="parseReadings" parent="Results">
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Results">
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSettingsChanged" parent="BluconGarminWidgetApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="BluconGarminWidgetApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="BluconGarminWidgetApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="BluconGarminWidgetApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="BluconGarminWidgetApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="BluconGarminWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="BluconGarminWidgetView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="BluconGarminWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="findTop" parent="BluconGarminWidgetView">
+<param id="h"/>
+<param id="value"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calcWidth" parent="BluconGarminWidgetView">
+<param id="screenWidth"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="displayActual" parent="BluconGarminWidgetView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="hashLine" parent="BluconGarminWidgetView">
+<param id="y"/>
+<param id="dc"/>
+<param id="val"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="displayLegend" parent="BluconGarminWidgetView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calculPosition" parent="BluconGarminWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawCircles" parent="BluconGarminWidgetView">
+<param id="dc"/>
+<param id="widthCol"/>
+<param id="position"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawLines" parent="BluconGarminWidgetView">
+<param id="dc"/>
+<param id="widthCol"/>
+<param id="position"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="displayBlucon" parent="BluconGarminWidgetView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="BluconGarminWidgetView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="BluconGarminWidgetView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onReceive" parent="BluconGarminWidgetView">
+<param id="args"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
 </debugInfo>

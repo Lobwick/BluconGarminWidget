@@ -5,4 +5,9 @@
 	<string id="bluconPwdTitle">Blucon password</string>
 	<string id="bluconNameTitle">Blucon Name (firstname lastname)</string>
 	<string id="hourToDisplayTitle">Select number of hours to display (1 to 3)</string>
+	
+	
+	<string id="errorEmail">email not filled</string>
+	<string id="errorUser">user not filled</string>
+	<string id="errorPwd">password not filled</string>
 </strings>
