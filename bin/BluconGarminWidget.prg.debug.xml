@@ -48,12 +48,12 @@
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="11" lineNum="36" pc="268436237" symbol="onMenu"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="12" lineNum="39" pc="268436241" symbol="onSelect"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="12" lineNum="40" pc="268436245" symbol="onSelect"/>
-<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="43" pc="268436249" symbol="makeRequest2"/>
-<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="44" pc="268436253" symbol="makeRequest2"/>
-<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="49" pc="268436311" symbol="makeRequest2"/>
-<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="58" pc="268436347" symbol="makeRequest"/>
-<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="59" pc="268436351" symbol="makeRequest"/>
-<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="64" pc="268436409" symbol="makeRequest"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="43" pc="268436249" symbol="makeRequestPlaintText"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="44" pc="268436253" symbol="makeRequestPlaintText"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="13" lineNum="49" pc="268436311" symbol="makeRequestPlaintText"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="58" pc="268436347" symbol="makeRequestJson"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="59" pc="268436351" symbol="makeRequestJson"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="14" lineNum="64" pc="268436409" symbol="makeRequestJson"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="72" pc="268436445" symbol="checkCredentials"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="73" pc="268436449" symbol="checkCredentials"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetDelegate.mc" id="15" lineNum="74" pc="268436475" symbol="checkCredentials"/>
@@ -136,7 +136,7 @@
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="34" lineNum="32" pc="268438245" symbol="getInitialView"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="34" lineNum="33" pc="268438275" symbol="getInitialView"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="34" lineNum="34" pc="268438327" symbol="getInitialView"/>
-<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="34" lineNum="5" pc="268440546" symbol="&lt;init&gt;"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetApp.mc" id="34" lineNum="5" pc="268440534" symbol="&lt;init&gt;"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="36" lineNum="17" pc="268438367" symbol="initialize"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="36" lineNum="18" pc="268438371" symbol="initialize"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="37" lineNum="22" pc="268438394" symbol="onLayout"/>
@@ -230,13 +230,13 @@
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="156" pc="268440191" symbol="onReceive"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="157" pc="268440215" symbol="onReceive"/>
 <entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="160" pc="268440302" symbol="onReceive"/>
-<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="12" pc="268440615" symbol="&lt;init&gt;"/>
-<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="14" pc="268440652" symbol="&lt;init&gt;"/>
-<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="15" pc="268440683" symbol="&lt;init&gt;"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="12" pc="268440603" symbol="&lt;init&gt;"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="14" pc="268440640" symbol="&lt;init&gt;"/>
+<entry filename="/Users/Felix/garmin/BluconGarminWidget/source/BluconGarminWidgetView.mc" id="50" lineNum="15" pc="268440671" symbol="&lt;init&gt;"/>
 <entry filename="Rez" id="56" lineNum="16" pc="268440319" symbol="MainLayout"/>
-<entry filename="Rez" id="56" lineNum="19" pc="268440331" symbol="MainLayout"/>
-<entry filename="Rez" id="56" lineNum="20" pc="268440450" symbol="MainLayout"/>
-<entry filename="Rez" id="56" lineNum="22" pc="268440514" symbol="MainLayout"/>
+<entry filename="Rez" id="56" lineNum="18" pc="268440331" symbol="MainLayout"/>
+<entry filename="Rez" id="56" lineNum="19" pc="268440450" symbol="MainLayout"/>
+<entry filename="Rez" id="56" lineNum="21" pc="268440502" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -253,7 +253,6 @@
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="16" object="true" symbol="Results"/>
-<entry id="68" method="true" symbol="makeRequest2"/>
 <entry field="true" id="45" symbol="mView"/>
 <entry id="12" method="true" symbol="toTimestamp"/>
 <entry id="21" object="true" symbol="BluconGarminWidgetView"/>
@@ -281,6 +280,7 @@
 <entry field="true" id="8388721" symbol="min"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry field="true" id="17" symbol="hourToDisplay"/>
+<entry id="68" method="true" symbol="makeRequestPlaintText"/>
 <entry field="true" id="54" symbol="hourToDisplayTitle"/>
 <entry field="true" id="18" symbol="readings_value"/>
 <entry id="47" module="true" symbol="Menus"/>
@@ -291,7 +291,6 @@
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry field="true" id="61" symbol="access_token_user"/>
 <entry field="true" id="56" symbol="bluconPwdTitle"/>
-<entry id="69" method="true" symbol="makeRequest"/>
 <entry id="35" method="true" symbol="findTop"/>
 <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
 <entry id="26" method="true" symbol="parseReadings"/>
@@ -314,6 +313,7 @@
 <entry field="true" id="66" symbol="password"/>
 <entry id="44" method="true" symbol="onReceive"/>
 <entry id="72" method="true" symbol="getUserAuthorization"/>
+<entry id="69" method="true" symbol="makeRequestJson"/>
 <entry id="67" method="true" symbol="getCredentials"/>
 <entry field="true" id="59" symbol="notify"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
@@ -452,8 +452,8 @@
 <entry endPc="268440299" name="i" stackId="3" startPc="268440215"/>
 <entry endPc="268440299" name="keys" stackId="2" startPc="268440165"/>
 <entry arg="true" endPc="268440319" name="args" stackId="1" startPc="268440114"/>
-<entry endPc="268440531" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268440331"/>
-<entry arg="true" endPc="268440532" name="dc" stackId="1" startPc="268440319"/>
+<entry endPc="268440519" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268440331"/>
+<entry arg="true" endPc="268440520" name="dc" stackId="1" startPc="268440319"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
@@ -510,14 +510,14 @@
 <functionEntry accessMode="public" name="onSelect" parent="BluconGarminWidgetDelegate">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="makeRequest2" parent="BluconGarminWidgetDelegate">
+<functionEntry accessMode="public" name="makeRequestPlaintText" parent="BluconGarminWidgetDelegate">
 <param id="url"/>
 <param id="params"/>
 <param id="header"/>
 <param id="callBackMethod"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="makeRequest" parent="BluconGarminWidgetDelegate">
+<functionEntry accessMode="public" name="makeRequestJson" parent="BluconGarminWidgetDelegate">
 <param id="url"/>
 <param id="params"/>
 <param id="header"/>

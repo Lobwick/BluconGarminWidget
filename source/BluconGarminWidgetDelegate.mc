@@ -40,7 +40,7 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
         return true;
     }
     
-	function makeRequest2(url, params, header, callBackMethod) {
+	function makeRequestPlaintText(url, params, header, callBackMethod) {
         var options = {
             :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_TEXT_PLAIN,
             :headers => header,
@@ -55,7 +55,7 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
     }
 
 
-    function makeRequest(url, params, header, callBackMethod) {
+    function makeRequestJson(url, params, header, callBackMethod) {
         var options = {
             :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON,
             :headers => header,
@@ -100,7 +100,7 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
 			"email" => email,
 			"password" => password
         };
-        makeRequest("https://www.ambrosiasys.com/app/authentication", params, header, :receiveAuthentification);
+        makeRequestJson("https://www.ambrosiasys.com/app/authentication", params, header, :receiveAuthentification);
 	}
 
 	function getUserAuthorization(){
@@ -113,7 +113,7 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
 			"code " => access_token,
 			"signature" => user_name,
         };
-        makeRequest("https://www.ambrosiasys.com/app/user_authorization?grant_type=access_token&code="+access_token+"&signature="+user_name, params, header, :receiveUserAuthorization);//		
+        makeRequestJson("https://www.ambrosiasys.com/app/user_authorization?grant_type=access_token&code="+access_token+"&signature="+user_name, params, header, :receiveUserAuthorization);//		
 	}
 	
 	function getReadings(){
@@ -122,7 +122,7 @@ class BluconGarminWidgetDelegate extends WatchUi.BehaviorDelegate {
 				"authorization" => access_token_user,
         };
         var timeRange = getTimeRange();
-        makeRequest2("https://www.ambrosiasys.com/app/readings", timeRange, header, :receiveReadings);		
+        makeRequestPlaintText("https://www.ambrosiasys.com/app/readings", timeRange, header, :receiveReadings);		
 	}
 	
 	function receiveReadings(responseCode, data) {
